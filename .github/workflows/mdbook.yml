@@ -32,6 +32,7 @@ jobs:
       MDBOOK_VERSION: 0.4.36
     steps:
       - uses: actions/checkout@v4
+      # Installing the binaries directly for a faster deployment
       - name: Install mdBook and plugins
         run: |
           mkdir -p $HOME/.local/bin
