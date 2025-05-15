@@ -1,4 +1,4 @@
-# MdBook Template
+<h1 align="center">MdBook Template 📚</h1>
 
 This template makes use of:
 
