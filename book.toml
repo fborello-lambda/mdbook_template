@@ -12,6 +12,9 @@ command = "mdbook-mermaid"
 command = "mdbook-admonish"
 assets_version = "3.0.3" # do not edit: managed by `mdbook-admonish install`
 
+[preprocessor.katex]
+after = ["links"]
+
 [output]
 
 [output.html]

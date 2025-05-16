@@ -42,6 +42,8 @@ jobs:
           curl -sSL https://github.com/badboy/mdbook-mermaid/releases/download/v0.15.0/mdbook-mermaid-v0.15.0-x86_64-unknown-linux-gnu.tar.gz | tar -xz -C $HOME/.local/bin
           # mdbook-admonish
           curl -sSL https://github.com/tommilligan/mdbook-admonish/releases/download/v1.19.0/mdbook-admonish-v1.19.0-x86_64-unknown-linux-gnu.tar.gz | tar -xz -C $HOME/.local/bin
+          # mdbook-katex // It doesn't have a pre-built binary
+          cargo install mdbook-katex
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5

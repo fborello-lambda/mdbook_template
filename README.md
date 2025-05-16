@@ -4,6 +4,7 @@ This template makes use of:
 
 - [mdbook-admonish](https://github.com/tommilligan/mdbook-admonish)
 - [mdbook-mermaid](https://github.com/badboy/mdbook-mermaid)
+- [mdbook-katex](https://github.com/lzanini/mdbook-katex)
 
 ## Enable deployment with github actions
 
